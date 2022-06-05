@@ -1,5 +1,5 @@
 # Git Study
-This directory is for LA to practice Git in the CLI
+I really wanted to understand more about Git and GitHub and the other definitions that entails it. Therefore, I had this repo to save all my findings about starting out with Git. 
 
 ## References
 - freeCodeCamp.org 
@@ -8,16 +8,15 @@ This directory is for LA to practice Git in the CLI
   - https://youtu.be/8Dd7KRpKeaE 
 
 ## Definition of Terms
-- What is Git and GitHub desktop?
-Git is a widely used version control system that lets you manage and keep track of your code. GitHub is a cloud-based hosting service that lets you manage your Git repositories. With GitHub, you can back up your personal files, share your code, and collaborate with others.
-- Git is a version control 
-- GitHub
+- Git is a version control system that works best in managing and tracking changes in the project you're working on. 
+- GitHub is the remote or cloud-based hosting service that lets you manage your Git repos.
+- Repository or repos in Git is a storage system of all your project's file and can contain discussions of your file's version history. **All git repos or repository is a folder, but not all folder is a git repo.**
   ![](images/img_10.png)
-- GitHub desktop
+- GitHub desktop is the extension of GitHub in your desktop. It works the same as the GitHub website with few limitations. It's recommendable to use a GitHub desktop for beginners. It has a Graphical User Interface(GUI) that helps user to do basic and needed git commands in a few clicks. Once you have the GitHub desktop, there's no need to do it again in the CLI.
   ![](images/img_9.png)
-- Git Bash
-- local directory
-- remote or remote directory
+- Git Bash refers more to the set of commands used to run Git in a terminal or command line. Bash is the acronym for Bourne Again Shell.
+- local directory means the directory you have in your local unit or pc. It is not accessible to the public and originally yours.
+- remote or remote directory refers to the directory that can be found in the cloud. 
 
 ## Specifics
 - Initialize a normal directory to be a git repo
@@ -28,7 +27,7 @@ Git is a widely used version control system that lets you manage and keep track 
     - '$ cd new_dir' this command allows you to move to the new folder in your local directory.
     ![img_1.png](images/img_1.png)
     ~~~
-    '$ git init'
+    $ git init
     ~~~
     ![img_3.png](images/img_3.png)
   - Do some changes in your new directory
@@ -90,10 +89,22 @@ Git is a widely used version control system that lets you manage and keep track 
   ~~~
   $ git push
   ~~~
-  
+  - Using the push command is the same as using the push interface in the GitHub Desktop. Frankly, it's easier to use the GitHub Desktop if you're just starting out with Git. But as you advance, it's better to know how to use the Command Line Interface (CLI) too.
+  ![](images/img_12.png)
+  - To confirm that your push was success, you can recheck if the changes was pushed in your remote GitHub repo. 
+  ![](images/img_13.png)
+  ![](images/img_14.png)
 - Pulling from the Git Repostory
-- Branches
-
+  - When working in a collaborative project, Git is the version control you needed best. Once a member of the project pushes in the Git repository, it's time for the other members to pull those changes to synch with the others.
 
 ## Help
+If you're ever stuck with something about Git. You have the whole wide internet to ask from. Or if you want to ask a definition straight from Git, well a simple help command can give you answers. 
+~~~
+$ git help
+~~~
 ![](images/img_11.png)
+
+## Contact Me
+Hi! I am LA. I am still learning a lot of things. If you want to know more about me or share points with me, I would love to hear it out from you. 
+
+Send me an e-mail via lanunez.ofx@gmail.com 
